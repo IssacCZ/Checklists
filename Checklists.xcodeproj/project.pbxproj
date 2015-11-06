@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		22D217421BEA6048009451A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217411BEA6048009451A5 /* AppDelegate.swift */; };
-		22D217441BEA6048009451A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217431BEA6048009451A5 /* ViewController.swift */; };
+		22D217441BEA6048009451A5 /* ChecklistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217431BEA6048009451A5 /* ChecklistsViewController.swift */; };
 		22D217471BEA6049009451A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D217451BEA6049009451A5 /* Main.storyboard */; };
 		22D217491BEA6049009451A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D217481BEA6049009451A5 /* Assets.xcassets */; };
 		22D2174C1BEA6049009451A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2174A1BEA6049009451A5 /* LaunchScreen.storyboard */; };
+		22D217591BEC4A07009451A5 /* ICLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217581BEC4A07009451A5 /* ICLocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22D2173E1BEA6048009451A5 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D217411BEA6048009451A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22D217431BEA6048009451A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22D217431BEA6048009451A5 /* ChecklistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsViewController.swift; sourceTree = "<group>"; };
 		22D217461BEA6049009451A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D217481BEA6049009451A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D2174B1BEA6049009451A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D2174D1BEA6049009451A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D217581BEC4A07009451A5 /* ICLocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICLocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		22D217401BEA6048009451A5 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
-				22D217411BEA6048009451A5 /* AppDelegate.swift */,
-				22D217431BEA6048009451A5 /* ViewController.swift */,
+				22D217551BEA6DC9009451A5 /* controllers */,
+				22D217531BEA6DA4009451A5 /* Resources */,
+				22D217541BEA6DB5009451A5 /* supportFiles */,
+			);
+			path = Checklists;
+			sourceTree = "<group>";
+		};
+		22D217531BEA6DA4009451A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				22D217451BEA6049009451A5 /* Main.storyboard */,
 				22D217481BEA6049009451A5 /* Assets.xcassets */,
 				22D2174A1BEA6049009451A5 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		22D217541BEA6DB5009451A5 /* supportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				22D2174D1BEA6049009451A5 /* Info.plist */,
 			);
-			path = Checklists;
+			name = supportFiles;
+			sourceTree = "<group>";
+		};
+		22D217551BEA6DC9009451A5 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22D217431BEA6048009451A5 /* ChecklistsViewController.swift */,
+				22D217411BEA6048009451A5 /* AppDelegate.swift */,
+				22D217581BEC4A07009451A5 /* ICLocationVC.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +123,11 @@
 				TargetAttributes = {
 					22D2173D1BEA6048009451A5 = {
 						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -135,7 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D217441BEA6048009451A5 /* ViewController.swift in Sources */,
+				22D217591BEC4A07009451A5 /* ICLocationVC.swift in Sources */,
+				22D217441BEA6048009451A5 /* ChecklistsViewController.swift in Sources */,
 				22D217421BEA6048009451A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
