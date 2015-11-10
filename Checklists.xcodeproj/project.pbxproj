@@ -15,7 +15,7 @@
 		22D2176E1BEF88C4009451A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2176B1BEF88C4009451A5 /* Main.storyboard */; };
 		22D217721BEF890E009451A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22D217711BEF890E009451A5 /* Info.plist */; };
 		22D217761BEF897A009451A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D217751BEF897A009451A5 /* Default-568h@2x.png */; };
-		22D217781BF08B02009451A5 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217771BF08B02009451A5 /* AddItemViewController.swift */; };
+		22D217781BF08B02009451A5 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217771BF08B02009451A5 /* ItemDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		22D2176B1BEF88C4009451A5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Resources/Main.storyboard; sourceTree = "<group>"; };
 		22D217711BEF890E009451A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportFiles/Info.plist; sourceTree = "<group>"; };
 		22D217751BEF897A009451A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		22D217771BF08B02009451A5 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = Code/AddItemViewController.swift; sourceTree = "<group>"; };
+		22D217771BF08B02009451A5 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailViewController.swift; path = Code/ItemDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 				22D217631BEF8882009451A5 /* AppDelegate.swift */,
 				22D217641BEF8882009451A5 /* ChecklistItem.swift */,
 				22D217651BEF8882009451A5 /* ChecklistsViewController.swift */,
-				22D217771BF08B02009451A5 /* AddItemViewController.swift */,
+				22D217771BF08B02009451A5 /* ItemDetailViewController.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D217661BEF8882009451A5 /* AppDelegate.swift in Sources */,
-				22D217781BF08B02009451A5 /* AddItemViewController.swift in Sources */,
+				22D217781BF08B02009451A5 /* ItemDetailViewController.swift in Sources */,
 				22D217681BEF8882009451A5 /* ChecklistsViewController.swift in Sources */,
 				22D217671BEF8882009451A5 /* ChecklistItem.swift in Sources */,
 			);
