@@ -10,9 +10,12 @@ import UIKit
 
 class ChecklistsViewController: UITableViewController, ItemDetailViewControllerDelegate {
     var items: [ChecklistItem]
+    var checklist: Checklist!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = checklist.name
     }
 
     override func didReceiveMemoryWarning() {

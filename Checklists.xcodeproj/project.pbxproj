@@ -16,6 +16,9 @@
 		22D217721BEF890E009451A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22D217711BEF890E009451A5 /* Info.plist */; };
 		22D217761BEF897A009451A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D217751BEF897A009451A5 /* Default-568h@2x.png */; };
 		22D217781BF08B02009451A5 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D217771BF08B02009451A5 /* ItemDetailViewController.swift */; };
+		22D2177C1BF34FDA009451A5 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2177B1BF34FD9009451A5 /* AllListsViewController.swift */; };
+		22D2177E1BF3583D009451A5 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2177D1BF3583D009451A5 /* Checklist.swift */; };
+		22D217801BF369D8009451A5 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2177F1BF369D7009451A5 /* ListDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		22D217711BEF890E009451A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportFiles/Info.plist; sourceTree = "<group>"; };
 		22D217751BEF897A009451A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		22D217771BF08B02009451A5 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailViewController.swift; path = Code/ItemDetailViewController.swift; sourceTree = "<group>"; };
+		22D2177B1BF34FD9009451A5 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllListsViewController.swift; path = Code/AllListsViewController.swift; sourceTree = "<group>"; };
+		22D2177D1BF3583D009451A5 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checklist.swift; path = Code/Checklist.swift; sourceTree = "<group>"; };
+		22D2177F1BF369D7009451A5 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListDetailViewController.swift; path = Code/ListDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				22D217641BEF8882009451A5 /* ChecklistItem.swift */,
 				22D217651BEF8882009451A5 /* ChecklistsViewController.swift */,
 				22D217771BF08B02009451A5 /* ItemDetailViewController.swift */,
+				22D2177B1BF34FD9009451A5 /* AllListsViewController.swift */,
+				22D2177D1BF3583D009451A5 /* Checklist.swift */,
+				22D2177F1BF369D7009451A5 /* ListDetailViewController.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -177,8 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D217661BEF8882009451A5 /* AppDelegate.swift in Sources */,
+				22D217801BF369D8009451A5 /* ListDetailViewController.swift in Sources */,
 				22D217781BF08B02009451A5 /* ItemDetailViewController.swift in Sources */,
+				22D2177E1BF3583D009451A5 /* Checklist.swift in Sources */,
 				22D217681BEF8882009451A5 /* ChecklistsViewController.swift in Sources */,
+				22D2177C1BF34FDA009451A5 /* AllListsViewController.swift in Sources */,
 				22D217671BEF8882009451A5 /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
